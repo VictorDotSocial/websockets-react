@@ -1,0 +1,22 @@
+.floating-emoji-container {
+  position: absolute;
+  animation: myanimation 4s;
+  width: 100vw;
+}
+
+.floating-emoji {
+  font-size: 10vw;
+}
+
+@keyframes myanimation {
+  0% {
+    bottom: 0%;
+    opacity: 1;
+    display: flex;
+  }
+  100% {
+    bottom: 100%;
+    opacity: 0.75;
+    display: none;
+  }
+}
